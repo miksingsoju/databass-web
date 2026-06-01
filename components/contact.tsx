@@ -18,7 +18,7 @@ export default function ContactSection() {
           href="mailto:databass.band@gmail.com" 
           className="font-mono font-black text-lg md:text-xl text-[#F16E22] underline hover:text-[#231F20]"
         >
-          databass@ateneo.edu
+          databass.band@gmail.com
         </a>
       </div>
     </section>
