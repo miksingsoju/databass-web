@@ -5,8 +5,7 @@ export default function ContactSection() {
         INITIALIZE_COMMUNICATION.EXE
       </div>
       
-      <h2 className="font-impact text-4xl uppercase tracking-tight text-[#F16E22] drop-shadow-[2px_2px_0px_#231F20]">
-        QUERY_THE_COLLECTIVE
+<h2 className="font-impact text-2xl sm:text-3xl md:text-4xl uppercase tracking-tight text-[#F16E22] drop-shadow-[2px_2px_0px_#231F20] leading-none">        QUERY_THE_COLLECTIVE
       </h2>
       
       <p className="font-mono text-sm text-[#231F20] font-bold">
