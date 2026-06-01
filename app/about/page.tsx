@@ -5,12 +5,12 @@ import { ArrowLeft, Terminal, Heart } from "lucide-react";
 
 export default function AboutPage() {
   const members = [
-    { name: "EDRIC", role: "Drummer", slant: "-rotate-1", bg: "bg-white", shadow: "#F16E22", facts: ["Drinks 4 cups of coffee before a set", "Accidentally dropped the synth once", "Fav Command: git push --force"] },
-    { name: "MIKS", role: "Bassist", slant: "rotate-2", bg: "bg-[#FBCD29]/15", shadow: "#231F20", facts: ["Can play the solo from SQL Injection Blues blindfolded", "Vinyl collector", "Loves dark mode exclusively"] },
-    { name: "AMIEL", role: "Lead Guitarist", slant: "-rotate-2", bg: "bg-white", shadow: "#F16E22", facts: ["Frequency regulator", "Once coded a rhythm bot for fun", "Fluent in 3 programming languages and slap bass"] },
-    { name: "NICS", role: "Vocalist", slant: "rotate-1", bg: "bg-white", shadow: "#231F20", facts: ["Creates custom synth patches using raw data streams", "Thrift store expert", "Enjoys broken time signatures"] },
-    { name: "PETER", role: "Rhythmn Guitarist", slant: "-rotate-1", bg: "bg-[#F16E22]/10", shadow: "#FBCD29", facts: ["Literally the system CPU", "Never misses a beat or a semicolon", "Has broken 4 pairs of sticks this month"] },
-    { name: "DAVID", role: "Vocalist", slant: "rotate-3", bg: "bg-white", shadow: "#231F20", facts: ["Designed the poster you love", "Zine enthusiast", "Refuses to use pure black (#000000) anywhere"] },
+    { name: "EDRIC", role: "Super Cool Drummer", slant: "-rotate-1", bg: "bg-white", shadow: "#F16E22", facts: ["Valid", "Cares for the elderly"] },
+    { name: "MIKS", role: "Super Cool Bassist", slant: "rotate-2", bg: "bg-[#FBCD29]/15", shadow: "#231F20", facts: ["Nonchalant"] },
+    { name: "AMIEL", role: "Super Cool Lead Guitarist", slant: "-rotate-2", bg: "bg-white", shadow: "#F16E22", facts: ["OA"] },
+    { name: "NICS", role: "Super Cool Vocalist", slant: "rotate-1", bg: "bg-white", shadow: "#231F20", facts: ["Comms God", "Always late"] },
+    { name: "PETER", role: "Super Cool Rhythmn Guitarist", slant: "-rotate-1", bg: "bg-[#F16E22]/10", shadow: "#FBCD29", facts: ["The real swag"] },
+    { name: "DAVID", role: "Super Cool Vocalist", slant: "rotate-3", bg: "bg-white", shadow: "#231F20", facts: ["Super high QPI", "Math Wizard"] },
   ];
 
   return (
