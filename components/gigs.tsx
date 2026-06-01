@@ -14,11 +14,10 @@ export default function Gigs() {
 
             <div className="grid md:grid-cols-3 gap-8 items-start">
 
-                {/* LEFT & CENTER COLS: UPCOMING GIGS (Chunky Ticket Style) */}
                 {/* LEFT & CENTER COLS: UPCOMING GIGS */}
                 <div className="md:col-span-2 space-y-4">
                     <h3 className="font-mono text-xs font-black text-gray-500 uppercase tracking-widest">
-    // STAGED_FOR_EXECUTION:
+                        // STAGED_FOR_EXECUTION:
                     </h3>
 
                     {/* ⚠️ CONDITIONAL LOGIC CHECK */}
@@ -52,7 +51,8 @@ export default function Gigs() {
                     ) : (
 
                         /* ACTIVE STATE: Maps and prints out your gigs when array length > 0 */
-                        gigData.upcoming.map((gig) => (
+                        /* CHANGED HERE: Added (gig: any) to bypass the 'never' type-check on empty json slots */
+                        gigData.upcoming.map((gig: any) => (
                             <div
                                 key={gig.id}
                                 className="bg-white border-4 border-[#231F20] shadow-[6px_6px_0px_0px_#231F20] p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 transform hover:-translate-y-0.5 transition-transform"
@@ -87,7 +87,8 @@ export default function Gigs() {
                     <h3 className="font-mono text-xs font-black text-gray-500 uppercase tracking-widest">// ARCHIVED_LOGS:</h3>
 
                     <div className="bg-[#231F20] text-[#EAD2C1] border-4 border-[#231F20] shadow-[6px_6px_0px_0px_#F16E22] p-4 font-mono text-xs space-y-4">
-                        {gigData.past.map((gig) => (
+                        {/* CHANGED HERE: Added (gig: any) for safety consistency */}
+                        {gigData.past.map((gig: any) => (
                             <div key={gig.id} className="border-b border-white/10 pb-3 last:border-0 last:pb-0">
                                 <div className="text-[10px] text-[#FBCD29] font-bold">{gig.date}</div>
                                 <div className="font-sans font-black text-white text-sm my-0.5 uppercase tracking-tight">{gig.event}</div>
