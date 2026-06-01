@@ -16,7 +16,7 @@ export default function AboutPage() {
   return (
     <div className="bg-[#EAD2C1] text-[#231F20] min-h-screen p-4 md:p-8 space-y-8 selection:bg-[#FBCD29] pb-32">
       <div className="max-w-6xl mx-auto border-4 border-[#231F20] bg-[#EAD2C1] p-6 md:p-12 shadow-[8px_8px_0px_0px_#231F20]">
-        
+
         {/* Page Navigation Header */}
         <div className="flex justify-between items-center border-b-4 border-dashed border-[#231F20] pb-6 mb-10">
           <Link href="/" className="inline-flex items-center gap-2 font-mono font-black text-xs uppercase bg-white border-2 border-[#231F20] px-3 py-1.5 shadow-[2px_2px_0px_0px_#231F20] hover:bg-[#FBCD29] transition-colors">
@@ -29,9 +29,11 @@ export default function AboutPage() {
 
         {/* Section Heading */}
         <div className="mb-12 space-y-4">
-          <div className="inline-flex items-center gap-3 bg-[#F16E22] text-white px-5 py-2.5 border-2 border-[#231F20] shadow-[5px_5px_0px_0px_#231F20] transform -rotate-1">
-            <Terminal size={22} className="text-[#FBCD29]" />
-            <h1 className="font-impact text-3xl tracking-wide uppercase">MEET_THE_COLLECTIVE</h1>
+          <div className="inline-flex sm:inline-flex items-center gap-2 sm:gap-3 bg-[#F16E22] text-white px-3 py-2 sm:px-5 sm:py-2.5 border-2 border-[#231F20] shadow-[4px_4px_0px_0px_#231F20] sm:shadow-[5px_5px_0px_0px_#231F20] transform -rotate-1 max-w-full">
+            <Terminal size={18} className="text-[#FBCD29] flex-shrink-0 sm:w-[22px] sm:h-[22px]" />
+            <h1 className="font-impact text-lg sm:text-2xl lg:text-3xl tracking-wide uppercase truncate min-w-0">
+              MEET_THE_COLLECTIVE
+            </h1>
           </div>
           <p className="font-mono text-sm max-w-xl text-[#231F20]/80">
             Parsing the components behind the frequency response. Six individual units arrayed into a cohesive unit.
@@ -41,7 +43,7 @@ export default function AboutPage() {
         {/* Members Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {members.map((member) => (
-            <div 
+            <div
               key={member.name}
               className={`border-4 border-[#231F20] ${member.bg} p-5 ${member.slant} shadow-[6px_6px_0px_0px_${member.shadow}] flex flex-col justify-between group transition-transform duration-200 hover:rotate-0 hover:scale-[1.02]`}
             >
