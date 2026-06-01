@@ -7,6 +7,7 @@ import Tracklist from "@/components/tracklist";
 import Navbar from "@/components/nav";
 import ContactSection from "@/components/contact";
 import Gigs from "@/components/gigs";
+import VideoLog from "@/components/videolog";
 
 export default function Home() {
 
@@ -15,7 +16,10 @@ export default function Home() {
       <div className="max-w-6xl mx-auto border-4 border-[#231F20] bg-[#EAD2C1] p-6 md:p-12 shadow-[8px_8px_0px_0px_#231F20]">
 
         <Hero />
+
         <Tracklist />
+        <VideoLog />
+
         <Gigs />
         <About />
         <Gallery />

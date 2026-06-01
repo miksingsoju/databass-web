@@ -4,25 +4,12 @@
   ],
   "past": [
     {
-      "id": "gig-03",
-      "date": "MAY 08, 2026",
-      "event": "MISA Somnia / RecWeek",
-      "venue": "MVP Roofdeck",
-      "status": "SUCCESSFULLY_EXECUTED"
-    },
-    {
-      "id": "gig-02",
-      "date": "APR 17, 2026",
-      "event": "Algorhythm Vol. 1",
-      "venue": "Off-Campus Space",
-      "status": "SUCCESSFULLY_EXECUTED"
-    },
-    {
       "id": "gig-01",
-      "date": "FEB 14, 2026",
-      "event": "System Boot: First Live Show",
-      "venue": "Ateneo Moro Lorenzo",
+      "date": "MAY 01, 2026",
+      "event": "MISA YEP 2026",
+      "venue": "Loyola Grand Villas Community Center",
       "status": "SUCCESSFULLY_EXECUTED"
     }
+    
   ]
 }
